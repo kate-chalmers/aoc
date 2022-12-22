@@ -2,12 +2,6 @@ library(tidyverse)
 
 dat <- readLines("./Day 8/input.txt")
 
-dat <- c("30373",
-         "25512",
-         "65332",
-         "33549",
-         "35390")
-
 # part 1
 
 dat_tidy <- str_split_fixed(dat, "", nchar(dat)[1])
